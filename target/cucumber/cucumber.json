@@ -1,0 +1,397 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 24476166600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Success logged in as normal user",
+        "description": "",
+        "id": "login;success-logged-in-as-normal-user",
+        "after": [
+          {
+            "result": {
+              "duration": 6268068300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1682301300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User on the login page",
+            "match": {
+              "location": "LoginStep.verifyLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 901417300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User fill username with \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStep.inputUsername(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 186051300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User fill password with \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "secret_sauce",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStep.inputPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1353655600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click login button",
+            "match": {
+              "location": "LoginStep.clickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "User directed to inventory page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "Login to page saucedemo",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "features/Login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Login"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6954832300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User will short item by Name (Z to A) and checkout",
+        "description": "",
+        "id": "purchase;user-will-short-item-by-name-(z-to-a)-and-checkout",
+        "after": [
+          {
+            "result": {
+              "duration": 5877546400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "User open the web page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User fill username with \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStep.inputUsername(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User fill password with \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "secret_sauce",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStep.inputPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User click login button",
+            "match": {
+              "location": "LoginStep.clickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User sort product list by \"Name (Z to A)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Name (Z to A)",
+                  "offset": 27
+                }
+              ],
+              "location": "PurchaseStep.selectProductCart(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User add product",
+            "match": {
+              "location": "PurchaseStep.userAddProduct()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User see add 1 product",
+            "match": {
+              "location": "PurchaseStep.shoppingChart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User remove product",
+            "match": {
+              "location": "PurchaseStep.userRemoveProduct1()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User checkout the item",
+            "match": {
+              "location": "PurchaseStep.checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User fill \"ahmad\" as firstname, \"fathoni\" as lastname and \"65145\" as postal code",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ahmad",
+                  "offset": 11
+                },
+                {
+                  "val": "fathoni",
+                  "offset": 33
+                },
+                {
+                  "val": "65145",
+                  "offset": 59
+                }
+              ],
+              "location": "PurchaseStep.inputCredential(String,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User click continue",
+            "match": {
+              "location": "PurchaseStep.continueCheckout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "User will see expected Item total \"Item total: $7.99\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Item total: $7.99",
+                  "offset": 35
+                }
+              ],
+              "location": "PurchaseStep.expectedItemTotal(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "expected Tax \"Tax: $0.64\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tax: $0.64",
+                  "offset": 14
+                }
+              ],
+              "location": "PurchaseStep.ExpectedTAX(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "expected Total \"Total: $8.63\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Total: $8.63",
+                  "offset": 16
+                }
+              ],
+              "location": "PurchaseStep.ExpectedTotal(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "User click finish button",
+            "match": {
+              "location": "PurchaseStep.userFinishBuy()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "User see \"THANK YOU FOR YOUR ORDER\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "THANK YOU FOR YOUR ORDER",
+                  "offset": 10
+                }
+              ],
+              "location": "PurchaseStep.checkoutFinish(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Purchase",
+    "description": "",
+    "id": "purchase",
+    "keyword": "Feature",
+    "uri": "features/Purchase.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Purchase"
+      }
+    ]
+  }
+]

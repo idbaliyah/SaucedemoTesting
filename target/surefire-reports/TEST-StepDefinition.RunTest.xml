@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="25" failures="0" name="StepDefinition.RunTest" time="149.978" errors="0" skipped="19">
+  <properties>
+    <property name="idea.version" value="2022.2.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_341\jre\bin"/>
+    <property name="java.vm.version" value="25.341-b10"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="F:\!!TONI\Web Automation Testing\SaucedemoTesting"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="ID"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="F:\!!TONI\Web Automation Testing\SaucedemoTesting"/>
+    <property name="java.runtime.version" value="1.8.0_341-b10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_341\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\LENOVO\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_341\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Borland\Delphi7\Bin;C:\Program Files (x86)\Borland\Delphi7\Projects\Bpl\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_341\bin;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.8.6\bin;C:\Program Files\nodejs\;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;c:\adb\;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\bin;;C:\Users\LENOVO\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\LENOVO"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="LENOVO"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_341\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.2.2 test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_341"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_341\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_341\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_341\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Scenario: Success logged in as normal user" name="Given User on the login page" time="0.006"/>
+  <testcase classname="Scenario: Success logged in as normal user" name="When User fill username with &quot;standard_user&quot;" time="0.001"/>
+  <testcase classname="Scenario: Success logged in as normal user" name="And User fill password with &quot;secret_sauce&quot;" time="0"/>
+  <testcase classname="Scenario: Success logged in as normal user" name="And User click login button" time="0.001"/>
+  <testcase classname="Scenario: Success logged in as normal user" name="Then User directed to inventory page" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Success logged in as normal user" name="Scenario: Success logged in as normal user" time="6.273">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Success logged in as normal user" name="Scenario: Success logged in as normal user" time="6.273"/>
+  <testcase classname="Given User open the web page(Scenario: User will short item by Name (Z to A) and checkout)" name="Given User open the web page(Scenario: User will short item by Name " time="6.966">
+    <skipped/>
+    <system-out>
+  Scenario: Success logged in as normal user     &amp;#27;[90m# features/Login.feature:5&amp;#27;[0m
+    &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mUser on the login page&amp;#27;[0m                 &amp;#27;[90m# LoginStep.verifyLoginPage()&amp;#27;[0m
+    &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mUser fill username with &quot;&amp;#27;[0m&amp;#27;[32m&amp;#27;[1mstandard_user&amp;#27;[0m&amp;#27;[32m&quot;&amp;#27;[0m &amp;#27;[90m# LoginStep.inputUsername(String)&amp;#27;[0m
+    &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mUser fill password with &quot;&amp;#27;[0m&amp;#27;[32m&amp;#27;[1msecret_sauce&amp;#27;[0m&amp;#27;[32m&quot;&amp;#27;[0m   &amp;#27;[90m# LoginStep.inputPassword(String)&amp;#27;[0m
+    &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mUser click login button&amp;#27;[0m                  &amp;#27;[90m# LoginStep.clickLoginButton()&amp;#27;[0m
+    &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mUser directed to inventory page&amp;#27;[0m
+@Purchase
+Feature: Purchase
+</system-out>
+    <system-err>Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 59381
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1667160800.527][WARNING]: This version of ChromeDriver has not been tested with Chrome version 107.
+Oct 31, 2022 3:13:20 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 31, 2022 3:13:20 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 107, so returning the closest version found: a no-op implementation
+Oct 31, 2022 3:13:20 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 107.
+Oct 31, 2022 3:13:20 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.2` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you&apos;re using and the version number of the artifact is the same as Selenium&apos;s.
+</system-err>
+  </testcase>
+  <testcase classname="When User fill username with &quot;standard_user&quot;(Scenario: User will short item by Name (Z to A) and checkout)" name="When User fill username with &quot;standard_user&quot;(Scenario: User will short item by Name " time="6.968">
+    <skipped/>
+  </testcase>
+  <testcase classname="And User fill password with &quot;secret_sauce&quot;(Scenario: User will short item by Name (Z to A) and checkout)" name="And User fill password with &quot;secret_sauce&quot;(Scenario: User will short item by Name " time="6.969">
+    <skipped/>
+  </testcase>
+  <testcase classname="And User click login button(Scenario: User will short item by Name (Z to A) and checkout)" name="And User click login button(Scenario: User will short item by Name " time="6.973">
+    <skipped/>
+  </testcase>
+  <testcase classname="Then User sort product list by &quot;Name (Z to A)&quot;(Scenario: User will short item by Name (Z to A) and checkout)" name="Then User sort product list by &quot;Name (Z to A)&quot;(Scenario: User will short item by Name " time="6.974">
+    <skipped/>
+  </testcase>
+  <testcase classname="And User add product(Scenario: User will short item by Name (Z to A) and checkout)" name="And User add product(Scenario: User will short item by Name " time="6.976">
+    <skipped/>
+  </testcase>
+  <testcase classname="Then User see add 1 product(Scenario: User will short item by Name (Z to A) and checkout)" name="Then User see add 1 product(Scenario: User will short item by Name " time="6.977">
+    <skipped/>
+  </testcase>
+  <testcase classname="Then User remove product(Scenario: User will short item by Name (Z to A) and checkout)" name="Then User remove product(Scenario: User will short item by Name " time="6.978">
+    <skipped/>
+  </testcase>
+  <testcase classname="And User checkout the item(Scenario: User will short item by Name (Z to A) and checkout)" name="And User checkout the item(Scenario: User will short item by Name " time="6.981">
+    <skipped/>
+  </testcase>
+  <testcase classname="Then User fill &quot;ahmad&quot; as firstname, &quot;fathoni&quot; as lastname and &quot;65145&quot; as postal code(Scenario: User will short item by Name (Z to A) and checkout)" name="Then User fill &quot;ahmad&quot; as firstname, &quot;fathoni&quot; as lastname and &quot;65145&quot; as postal code(Scenario: User will short item by Name " time="6.983">
+    <skipped/>
+  </testcase>
+  <testcase classname="And User click continue(Scenario: User will short item by Name (Z to A) and checkout)" name="And User click continue(Scenario: User will short item by Name " time="6.984">
+    <skipped/>
+  </testcase>
+  <testcase classname="Then User will see expected Item total &quot;Item total: $7.99&quot;(Scenario: User will short item by Name (Z to A) and checkout)" name="Then User will see expected Item total &quot;Item total: $7.99&quot;(Scenario: User will short item by Name " time="6.985">
+    <skipped/>
+  </testcase>
+  <testcase classname="And expected Tax &quot;Tax: $0.64&quot;(Scenario: User will short item by Name (Z to A) and checkout)" name="And expected Tax &quot;Tax: $0.64&quot;(Scenario: User will short item by Name " time="6.987">
+    <skipped/>
+  </testcase>
+  <testcase classname="And expected Total &quot;Total: $8.63&quot;(Scenario: User will short item by Name (Z to A) and checkout)" name="And expected Total &quot;Total: $8.63&quot;(Scenario: User will short item by Name " time="6.989">
+    <skipped/>
+  </testcase>
+  <testcase classname="Then User click finish button(Scenario: User will short item by Name (Z to A) and checkout)" name="Then User click finish button(Scenario: User will short item by Name " time="6.991">
+    <skipped/>
+  </testcase>
+  <testcase classname="Then User see &quot;THANK YOU FOR YOUR ORDER&quot;(Scenario: User will short item by Name (Z to A) and checkout)" name="Then User see &quot;THANK YOU FOR YOUR ORDER&quot;(Scenario: User will short item by Name " time="6.993">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: User will short item by Name (Z to A) and checkout" name="Scenario: User will short item by Name " time="12.873">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: User will short item by Name (Z to A) and checkout" name="Scenario: User will short item by Name " time="12.874"/>
+</testsuite>

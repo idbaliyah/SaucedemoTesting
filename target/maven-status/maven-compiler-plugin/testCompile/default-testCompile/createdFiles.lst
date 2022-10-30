@@ -1,0 +1,4 @@
+StepDefinition\RunTest.class
+StepDefinition\LoginStep.class
+StepDefinition\PurchaseStep.class
+StepDefinition\Hooks.class
